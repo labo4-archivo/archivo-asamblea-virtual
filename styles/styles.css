@@ -1,3 +1,7 @@
+*{
+  transition: all ease-in 2s;
+}
+
 html, body{
     height: 100%;
     margin:0;
@@ -5,7 +9,6 @@ html, body{
     text-align:center;
     background-color: #282828;
 }
-
 
 section {
     padding: 20px;
@@ -17,7 +20,7 @@ section {
   }
 
 section#cover{
-    padding-top:25%;
+    padding-top:15%;
 }
   
   h1 {
@@ -34,11 +37,18 @@ section#cover{
     margin: 25px 0;
     padding: 0;
   }
+
+  .link{
+    margin-top:100px;
+  }
   
   a, a:active, a:link, a:visited {
     text-decoration: none;
-    color: #000;
-    font-size: 0.8em;
+    color: #FFF;
+    font-size: 1em;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
   }
   
   p {
